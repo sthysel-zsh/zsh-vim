@@ -1,6 +1,11 @@
-alias vim="nvim"
-alias vi="nvim"
+# make these aliases if nvim is available
+if hash gdate 2>/dev/null
+then
+	alias vim="nvim"
+	alias vi="nvim"
+fi
 
+# set shell to vim mode
 bindkey -v
 bindkey -v '^?' backward-delete-char
 
