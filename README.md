@@ -8,6 +8,6 @@ zsh plugin for vim keybindings and config
 Using [zplug](https://github.com/zplug/zplug) in .zshrc 
 
 ```
-zplug "sthysel/zsh-vim"
+zplug "sthyselzsh/zsh-vim"
 ```
 
