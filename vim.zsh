@@ -1,5 +1,5 @@
 # make these aliases if nvim is available
-if hash gdate 2>/dev/null
+if hash nvim 2>/dev/null
 then
 	alias vim="nvim"
 	alias vi="nvim"
